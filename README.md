@@ -8,6 +8,8 @@ You can create a vim shortcut to map a key to vim and/or shell commands by addin
 
 `map <[key]> <CR>:[vim command 1]<CR>:[vim command 2]<CR>:...<CR>:![shell command 1]; [shell command 2]; ...<CR>`
 
+this way you can bind your compile and run commands to shortcuts
+
 ### Tips
 - Use `;` instead of `<CR>:!` between your shell commands if you want to see their outputs
 - The variable `%` contains the name of the file
