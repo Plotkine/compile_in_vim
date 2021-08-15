@@ -21,3 +21,5 @@ Write these lines into `~/.vimrc`:
 - `map <F9> :w<CR>:!name=$(echo % \|cut -d'.' -f 1); ./${name}.exe<CR>` (saving and running)
 
 **Now press F8 or F9 from inside vim and voilà!**
+
+![Alt text](./show.gif?raw=true "Title")
