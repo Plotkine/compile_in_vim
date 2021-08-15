@@ -1,5 +1,5 @@
 # compile_in_vim
-## How to create a shortcut to compile your program from vim
+## How to create a shortcut to compile/execute your code from vim
 
 So you like vim but you are tired of modifying your code, then switching to another terminal to compile it and run it?
 
