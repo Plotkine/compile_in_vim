@@ -6,7 +6,7 @@ So you like vim but you are tired of switching to another terminal to compile an
 
 You can create a vim shortcut to map a key to vim and/or shell commands by adding a line in `~/.vimrc`:
 
-`map <[key]> <CR>:[vim command 1]<CR>:[vim command 2]<CR>:...<CR>:![shell command 1]; [shell command 2]; ...<CR>`
+`map <[key]> :[vim command 1]<CR>:[vim command 2]<CR>:...<CR>:![shell command 1]; [shell command 2]; ...<CR>`
 
 This way you can bind your compile and run commands to shortcuts
 
