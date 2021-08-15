@@ -14,7 +14,7 @@ You can create a vim shortcut to map a key to vim and/or shell commands by addin
 
 ### Example with C code (program.c -> program.exe)
 
-Write these lines into `~/.vimrc`:
+Write these lines into `~/.vimrc`
 
 - `map <F8> :w<CR>:!name=$(echo % \|cut -d'.' -f 1); gcc ${name}.c -o ${name}.exe -std=c89 -Wall<CR>` (saving and compiling)
 
