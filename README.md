@@ -18,9 +18,9 @@ This way you can bind your compile and run commands to shortcut keys and see the
 
 Write these lines into `~/.vimrc`
 
-- `map <F8> :w<CR>:!name=$(echo % \|cut -d'.' -f 1); gcc ${name}.c -o ${name}.exe -std=c89 -Wall<CR>` (saving and compiling)
+- `map <F8> :w<CR>:!name=$(echo % \|cut -d'.' -f 1); gcc ${name}.c -o ${name} -std=c89 -Wall<CR>` (saving and compiling)
 
-- `map <F9> :w<CR>:!name=$(echo % \|cut -d'.' -f 1); ./${name}.exe<CR>` (saving and running)
+- `map <F9> :w<CR>:!name=$(echo % \|cut -d'.' -f 1); ./${name}<CR>` (saving and running)
 
 **Now press F8 or F9 from inside vim and voilà!**
 
