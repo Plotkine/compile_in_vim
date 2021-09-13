@@ -1,6 +1,6 @@
 # compile_in_vim
 
-## How to create shortcuts to compile/execute your code from inside vim
+## Create shortcuts to compile/execute your code from inside vim
 
 So you like vim but you are tired of switching to another terminal to compile and run your code?
 
